@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">This is Massively</a></li>
+							<li class="active"><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h2>Home Depot<br />
+									Product Recommendation Search Engine</h2>
+									<p><h3>Objective</h3>The main objective of this search engine is to maximize sales by combining NLP and unsupervised learning Technique <br />
+									It can predict a group (cluster) of related items and can display top 10 trending products related to selected item.
+									</p>
+								</header>
+								<div class="image main"><img src="images/prod_recommendation.jpg" alt="" /></div>
+								<p><h3>Architecture & Mechanism:</h3>It is designed with the  combination of Natural Language processing and Kmeans Clustering (unsupervised technique).
+The data consist of  Home depot Products Id, Product Title and Product Description. In different csv files.</p>
+<p>Using Term frequency and Inverse Document frequency and word net lemmatization   (TFIDF) technique ,product description column was cleaned and preprocessed .Then based on majority of feature counts clusters groups  were made using Kmeans clustering by keeping relevant products in same cluster .
+The search engine predicts the cluster group based on user entry and displays cluster which act like a filter.
+By selecting the item in the cluster will display top 10 trending products related to it..</p>
+<p>Eg. Let say user types bulb as search object , then the system will predict cluster group corresponding to bulb which contains bulb as well as other items related to it.
+And Then by selecting the item in cluster will display   top 10 trending products corresponding to it.
+</p>
+								<h3>Pictorial Representation</h3>
+								<div class="image main"><img src="images/search_architecture.jpg" alt="" /></div>
+								<p><h3>Web App Link</h3> <li><a href="https://share.streamlit.io/siddheshm14/product_recommendation/main/relevantsearch.py">https://share.streamlit.io/siddheshm14/product_recommendation/main/relevantsearch.py</a></li> </p>
+								<p> <h3>Source Code Link</h3></p>
+								<li><a href="https://github.com/siddheshm14/product_recommendation" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+
+							</section>
+
+					</div>
+
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
